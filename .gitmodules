@@ -1,0 +1,24 @@
+[submodule "pack/start/vim-airline"]
+	path = pack/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/my-plugins/start/vim-airline-themes"]
+	path = pack/my-plugins/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/my-plugins/start/vim-colorschemes"]
+	path = pack/my-plugins/start/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "pack/my-plugins/start/vim-qkdb-syntax"]
+	path = pack/my-plugins/start/vim-qkdb-syntax
+	url = https://github.com/katusk/vim-qkdb-syntax.git
+[submodule "pack/my-plugins/start/a.vim"]
+	path = pack/my-plugins/start/a.vim
+	url = https://github.com/vim-scripts/a.vim.git
+[submodule "pack/my-plugins/start/nerdtree"]
+	path = pack/my-plugins/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/my-plugins/start/tagbar"]
+	path = pack/my-plugins/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "pack/my-plugins/start/YouCompleteMe"]
+	path = pack/my-plugins/start/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
