@@ -1,5 +1,5 @@
-[submodule "pack/start/vim-airline"]
-	path = pack/start/vim-airline
+[submodule "pack/my-plugins/start/vim-airline"]
+	path = pack/my-plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
 [submodule "pack/my-plugins/start/vim-airline-themes"]
 	path = pack/my-plugins/start/vim-airline-themes
