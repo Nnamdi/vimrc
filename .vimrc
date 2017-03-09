@@ -11,16 +11,24 @@ augroup END
 set t_Co=256
 
 " set the colour scheme
-colorscheme Tomorrow-Night 
+colorscheme jellybeans
 
 " enable syntax highlighting
 syntax on
 
+" enable doxygen highlighting
+let g:load_doxygen_syntax=1
 
 """ mouse input """
 
 " enable mouse input
 set mouse=a
+
+if has("mouse_sgr")
+    set ttymouse=sgr
+else
+    set ttymouse=xterm2
+endif
 
 
 """ text input """
@@ -42,6 +50,9 @@ set number
 
 " disable automated line wrapping
 set textwidth=0
+
+" make the backspace key act as you expect
+set backspace=2
 
 
 """ filename auto-completion """
@@ -85,17 +96,23 @@ nmap <F11> :call ToggleMouseAndNumbers() <CR>
 set laststatus=2
 
 " use airline for the tab bar
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled=1
 
 " set colour theme
 let g:airline_theme='wombat'
 
 " enable nicer fonts
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts=1
+
+" make tabline only show open tabs, not buffers
+let g:airline#extensions#tabline#show_buffers=0
 
 
 """ YouCompleteMe """
 
 " don't ask to confirm which extra conf file is used
-let g:ycm_confirm_extra_conf = 0
+let g:ycm_confirm_extra_conf=0
+
+" make the preview window close automatically
+let g:ycm_autoclose_preview_window_after_insertion=1
 

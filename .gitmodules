@@ -22,3 +22,6 @@
 [submodule "pack/my-plugins/start/YouCompleteMe"]
 	path = pack/my-plugins/start/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "pack/my-plugins/start/vim-rtags"]
+	path = pack/my-plugins/start/vim-rtags
+	url = https://github.com/lyuts/vim-rtags.git
