@@ -31,3 +31,6 @@
 [submodule "pack/my-plugins/start/vim-unimpaired"]
 	path = pack/my-plugins/start/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "pack/my-plugins/start/ack.vim"]
+	path = pack/my-plugins/start/ack.vim
+	url = https://github.com/mileszs/ack.vim.git

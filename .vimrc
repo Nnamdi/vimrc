@@ -36,6 +36,9 @@ endif
 " splits and preview windows should show at bottom of screen
 set splitbelow
 
+" set the column indicator
+set colorcolumn=110
+
 
 """ text input """
 
@@ -97,6 +100,8 @@ nmap <F11> :call ToggleMouseAndNumbers() <CR>
 
 
 """ leader key mappings """
+
+nmap <leader>a :Ack! <Space>
 
 nmap <leader>gs :Gstatus <CR>
 nmap <leader>gb :Gblame <CR>
