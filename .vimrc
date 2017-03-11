@@ -31,6 +31,12 @@ else
 endif
 
 
+""" view """
+
+" splits and preview windows should show at bottom of screen
+set splitbelow
+
+
 """ text input """
 
 set autoindent
@@ -88,6 +94,12 @@ nmap <F9> :NERDTree <CR>
 nmap <F10> :set wrap! <CR>
 nmap <F11> :call ToggleMouseAndNumbers() <CR>
 "nmap <F12>
+
+
+""" leader key mappings """
+
+nmap <leader>gs :Gstatus <CR>
+nmap <leader>gb :Gblame <CR>
 
 
 """ vim-airline """
